@@ -1,3 +1,6 @@
+/**
+ * Calculates populations of 1 bits on a integer value
+ */
 fun population(n: Int): Int {
     if (n < 0) throw IllegalArgumentException("Expecting only positive numbers")
     var c = 0
